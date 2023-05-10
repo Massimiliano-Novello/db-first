@@ -1,0 +1,18 @@
+Auto usate
+
+
+id - INT - PRIMARY KEY - AUTO_INCREMENT
+modello - VARCHAR(20) - NOT NULL
+potenza_motore - MEDIUMINT
+kilometri_compiuti - INT - NOT NULL
+pezzi_nuovi - TINYINT
+prezzo - DECIMAL(9,2) - NOT NULL
+numero_telaio - INT - UNIQUE - NOT NULL
+stato_macchina - VARCHAR(15) - NOT NULL
+descrizione - TEXT
+sconto - DECIMAL(6,2)
+alimentazione - VARCHAR(15)
+garanzia - DATE
+cambio - VARCHAR(10)
+colore - VARCHAR(20)
+immatricolazione - DATE - UNIQUE - NOT NULL
